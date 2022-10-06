@@ -1,0 +1,5 @@
+@include('pages.fixed.head')
+@include('pages.fixed.header')
+@yield('content')
+@include('pages.fixed.scripts')
+@include('pages.fixed.footer')
